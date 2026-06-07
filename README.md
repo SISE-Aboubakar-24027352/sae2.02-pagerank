@@ -62,14 +62,6 @@ L'algorithme PageRank peut être utilisé pour des graphes qui ne sont pas assoc
 
 On considère le graphe du web simplifié suivant (avec N = 14 pages) :
 
-```
-        1
-    2  3  4  5
-        6
-    7  8  9  10
-   11  12  13  14
-```
-
 ![graphe1](./assets/graphe-Partie1.png)
 
 1. Justifier pourquoi l'application de l'algorithme de la puissance itérée à la matrice `Q` (vu en détails dans le TD de R2.09 dédié à la SAE) permet de calculer le score de chacune des pages.
@@ -83,11 +75,6 @@ On considère le graphe du web simplifié suivant (avec N = 14 pages) :
 ## Partie 2 : PageRank — version itérative, deuxième exemple
 
 1. Appliquer l'algorithme de la Partie 1 au graphe suivant et commenter le résultat obtenu :
-
-```
-1  2
-3  4  5
-```
 
 ![graphe2](./assets/graphe-Partie2.png)
 
